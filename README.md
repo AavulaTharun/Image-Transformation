@@ -23,8 +23,18 @@ Anaconda - Python 3.7
 
 ## Program:
 ```python
-Developed By:
-Register Number:
+Developed By:Aavula Tharun
+Register Number:212221240003
+
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
+input_image = cv2.imread("bird.jpg")
+input_image = cv2.cvtColor(input_image,cv2.COLOR_BGR2RGB)
+plt.axis('off')
+plt.imshow(input_image)
+plt.show()
+rows,cols,dim = input_image.shape
 i)Image Translation
 
 
@@ -54,6 +64,9 @@ vi)Image Cropping
 
 ```
 ## Output:
+### original image:
+![original](https://user-images.githubusercontent.com/93427201/166110969-f6f92431-eaf0-4dc0-b3a6-2e1753d9843f.png)
+
 ### i)Image Translation
 <br>
 <br>
@@ -95,7 +108,6 @@ vi)Image Cropping
 <br>
 <br>
 <br>
-
 
 
 
